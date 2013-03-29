@@ -12,6 +12,8 @@ autocmd Filetype haskell setlocal ts=2 sts=2 sw=2
 autocmd BufRead,BufNewFile *.io set filetype=io
 autocmd Filetype io setlocal ts=2 sts=2 sw=2
 
+autocmd BufRead,BufNewFile *.cl set filetype=c
+
 autocmd BufRead,BufNewFile *.t set filetype=perl
 
 syntax on
