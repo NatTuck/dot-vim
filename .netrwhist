@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/nat/.ssh'
+let g:netrw_dirhist_2='/home/nat/Downloads/CodeJam'
+let g:netrw_dirhist_3='/home/nat/Downloads/CodeJam/data'
+let g:netrw_dirhist_4='/home/nat/Dropbox/DPL/Week4_Io/solutions/MoreIo'
+let g:netrw_dirhist_5='/home/nat/Dropbox/DPL/Week4_Io/solutions'
