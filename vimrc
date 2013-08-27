@@ -21,6 +21,9 @@ autocmd BufRead,BufNewFile *.cl set filetype=c
 
 autocmd BufRead,BufNewFile *.t set filetype=perl
 
+autocmd BufRead *.vala,*.vapi set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m
+au BufRead,BufNewFile *.vala,*.vapi setfiletype vala
+
 syntax on
 filetype plugin indent on
 colorscheme torte
