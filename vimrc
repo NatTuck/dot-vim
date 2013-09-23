@@ -26,6 +26,9 @@ au BufRead,BufNewFile *.vala,*.vapi setfiletype vala
 
 au BufRead,BufNewFile *.go set filetype=go
 
+let go_highlight_trailing_whitespace_error = 0
+
+
 syntax on
 filetype plugin indent on
 colorscheme torte
