@@ -8,6 +8,9 @@ set ts=4
 set expandtab
 set ml
 
+" gnuplot
+au BufNewFile,BufRead *.plt,.gnuplot,.gp setf gnuplot
+
 " two spaces tabs explicitly for most modes
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 autocmd Filetype eruby setlocal ts=2 sts=2 sw=2
