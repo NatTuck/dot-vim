@@ -31,8 +31,12 @@ au BufRead,BufNewFile *.go set filetype=go
 
 let go_highlight_trailing_whitespace_error = 0
 
+<<<<<<< HEAD
 map <F1> <Esc>
 imap <F1> <Esc>
+=======
+au BufRead,BufNewFile *.md set filetype=markdown
+>>>>>>> 41f42022995649e030ad617350300243894a59be
 
 syntax on
 filetype plugin indent on
