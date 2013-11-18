@@ -31,10 +31,14 @@ au BufRead,BufNewFile *.go set filetype=go
 
 let go_highlight_trailing_whitespace_error = 0
 
+map <F1> <Esc>
+imap <F1> <Esc>
 
 syntax on
 filetype plugin indent on
 colorscheme torte
+
+filetype plugin on
 
 call pathogen#infect()
 Helptags
