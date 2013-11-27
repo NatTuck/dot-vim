@@ -28,6 +28,7 @@ autocmd BufRead *.vala,*.vapi set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m
 au BufRead,BufNewFile *.vala,*.vapi setfiletype vala
 
 au BufRead,BufNewFile *.go set filetype=go
+autocmd Filetype go setlocal ts=4 sw=4 noexpandtab
 
 let go_highlight_trailing_whitespace_error = 0
 
