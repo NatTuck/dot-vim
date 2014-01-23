@@ -43,5 +43,9 @@ colorscheme torte
 
 filetype plugin on
 
+" Run scheme program to indent scheme code.
+" Requires racket to be installed.
+"autocmd filetype lisp,scheme,art setlocal equalprg=~/.vim/bin/scmindent.rkt
+
 call pathogen#infect()
 Helptags
