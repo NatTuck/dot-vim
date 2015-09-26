@@ -17,6 +17,7 @@ autocmd Filetype eruby setlocal ts=2 sts=2 sw=2
 autocmd Filetype html setlocal ts=2 sts=2 sw=2
 autocmd Filetype haskell setlocal ts=2 sts=2 sw=2
 autocmd Filetype coffee setlocal ts=2 sts=2 sw=2
+autocmd Filetype scss setlocal ts=2 sts=2 sw=2
 
 autocmd BufRead,BufNewFile *.io set filetype=io
 autocmd Filetype io setlocal ts=2 sts=2 sw=2
