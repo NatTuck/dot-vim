@@ -14,6 +14,7 @@ au BufNewFile,BufRead *.plt,.gnuplot,.gp setf gnuplot
 " two spaces tabs explicitly for most modes
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 autocmd Filetype eruby setlocal ts=2 sts=2 sw=2
+autocmd Filetype coffee setlocal ts=2 sts=2 sw=2
 autocmd Filetype html setlocal ts=2 sts=2 sw=2
 autocmd Filetype haskell setlocal ts=2 sts=2 sw=2
 autocmd Filetype coffee setlocal ts=2 sts=2 sw=2
@@ -40,6 +41,7 @@ au BufRead,BufNewFile *.md set filetype=markdown
 map <F1> <Esc>
 imap <F1> <Esc>
 
+call pathogen#infect()
 syntax on
 filetype plugin indent on
 colorscheme torte
@@ -50,5 +52,4 @@ filetype plugin on
 " Requires racket to be installed.
 "autocmd filetype lisp,scheme,art setlocal equalprg=~/.vim/bin/scmindent.rkt
 
-call pathogen#infect()
 Helptags
