@@ -7,6 +7,7 @@ set noai
 set ts=4
 set expandtab
 set ml
+set vb
 
 " gnuplot
 au BufNewFile,BufRead *.plt,.gnuplot,.gp setf gnuplot
