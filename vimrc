@@ -53,4 +53,6 @@ filetype plugin on
 " Requires racket to be installed.
 "autocmd filetype lisp,scheme,art setlocal equalprg=~/.vim/bin/scmindent.rkt
 
-Helptags
+"Helptags
+
+let g:paredit_mode=0
